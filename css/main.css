@@ -1,0 +1,91 @@
+.container {
+	width: 100%;
+	max-width: 1340px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.heading {
+	display: block;
+	margin: 0;
+	margin-bottom: 25px;
+	font-size: 48px;
+	text-align: center;
+}
+
+.movie__box {
+   display: flex;
+   justify-content: space-around;
+	width: 100%;
+	max-width: 500px;
+	margin: 0 auto;
+   margin-bottom: 50px;
+}
+
+.input{
+   display: block;
+   padding: 5px;
+   margin-bottom: 10px; 
+}
+
+.select{
+   width: 100%;
+   max-width: 80px;
+   padding: 3px;
+}
+
+.btn{
+   width: 100%;
+   max-width: 80px;
+   margin-left: 8px;
+   padding: 3px;
+   color: #fff;
+   border-radius: 5px;
+   background-color: red;
+}
+
+.btn:hover{
+   opacity: 0.7;
+}
+
+.btn:active{
+   background-color: darkmagenta;
+}
+
+.list{
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+   width: 100%;
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 0;
+   list-style-type: none;
+}
+
+.movie__item{
+   display: block;
+   width: 100%;
+   width: 300px;
+   margin: 5px;
+   padding: 15px;
+   text-align: center;
+   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.movie__heading{
+   display: block;
+   margin: 0;
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+
+.movie__date{
+   display: block;
+   margin-bottom: 5px;
+}
+
+
+
+
+
