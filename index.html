@@ -16,14 +16,12 @@
             <h1 class="heading">Movies</h1>
 
             <div class="movie__box">
-               <form class="form">
+               <form class="form"> 
                   <input class="input" type="text" placeholder="Search">
-
-                  <input class="input input__page" type="number" placeholder="Pages">
 
                   <select class="select">
                      <option value="movie">Movie</option>
-                     <option value=" series">Series</option>
+                     <option value="series">Series</option>
                      <option value="episode">Episode</option>
                   </select>
 
@@ -34,15 +32,28 @@
             <ul class="list">
                <img class="list__animatiom" src="./img/Spin-1.4s-200px.svg" alt="animation" width="500" height="500">
             </ul>
-            
-            <!-- <div class="page">
-               <button class="back__btn">Back</button>
 
-               <button class="next__btn">Next</button>
-            </div> -->
+            <div class="page">
+               <button class="back__btn btn">Back</button>
+
+               <button class="next__btn btn">Next</button>
+            </div>
          </div>
       </section>
    </main>
+
+   <template class="movie__template">
+      <li class="movie__item">
+         <img class="movie__img" src="" alt="template imga" width="200" height="200">
+
+         <h3 class="movie__heading">Shazam</h3>
+
+         <p class="movie__info"></p>
+         <strong class="movie__date">2006</strong>
+
+         <button class="movie__btn btn">Watch</button>
+      </li>
+   </template>
    <script src="./js/main.js"></script>
 </body>
 
