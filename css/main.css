@@ -13,6 +13,14 @@
 	text-align: center;
 }
 
+.slider__list{
+   display: block;
+   margin: 0;
+   margin-bottom: 100px;
+   padding: 0;
+   list-style-type: none;
+}
+
 .movie__box {
    display: flex;
    justify-content: space-around;
@@ -97,7 +105,5 @@
    max-width: 180px;
    margin: 0 auto;
 }
-
-
 
 

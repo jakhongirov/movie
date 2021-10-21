@@ -87,3 +87,15 @@ elBackBtn.addEventListener('click', (evt)=>{
 })
 
 getMovie()  
+
+const slider = tns({
+   container: '.slider__list',
+   items: 3,
+   slideBy: 'page',
+   autoplay: true,
+   speed: 300,
+   autoplayTimeout: 3000,
+   mouseDrag: true,
+   controls: false,
+   autoplayButtonOutput: false
+ });
